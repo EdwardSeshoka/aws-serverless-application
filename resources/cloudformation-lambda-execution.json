@@ -43,7 +43,7 @@
                 "iam:DeleteRole"
             ],
             "Resource": [
-                "arn:aws:iam::account-id:role/*"
+                "arn:aws:iam::1083-7652-2744:role/*"
             ],
             "Effect": "Allow"
         },
@@ -53,7 +53,7 @@
                 "iam:DetachRolePolicy"
             ],
             "Resource": [
-                "arn:aws:iam::account-id:role/*"
+                "arn:aws:iam::1083-7652-2744:role/*"
             ],
             "Effect": "Allow"
         },
@@ -71,7 +71,7 @@
                 "cloudformation:CreateChangeSet"
             ],
             "Resource": [
-                "arn:aws:cloudformation:region:aws:transform/Serverless-2016-10-31"
+                "arn:aws:cloudformation:eu-west-1:aws:transform/Serverless-2016-10-31"
             ],
             "Effect": "Allow"
         }
